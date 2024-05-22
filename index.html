@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Circle Drawer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="controls">
+        <label for="circleWidth">Width:</label>
+        <input type="number" id="circleWidth" value="50" min="1">
+        <label for="circleHeight">Height:</label>
+        <input type="number" id="circleHeight" value="50" min="1">
+        <label for="circleColor">Color:</label>
+        <input type="color" id="circleColor" value="#ff0000">
+        <label for="fillType">Fill:</label>
+        <select id="fillType">
+            <option value="filled">Filled</option>
+            <option value="hollow">Hollow</option>
+        </select>
+    </div>
+    <canvas id="canvas" width="800" height="600"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>
